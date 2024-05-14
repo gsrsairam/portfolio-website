@@ -17,32 +17,15 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Hello! I'm <span className="font-medium">Sairam Gurram</span>, a Master’s student at <span className="font-medium">SUNY Buffalo</span> specializing in computer science. My journey from mechanical engineering to software engineering was driven by my passion for problem-solving and technology innovation. I have successfully led projects in backend development, API integration, and scalable solutions at companies like I-PAC and Vellichor Media.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        My technical expertise encompasses <span className="font-medium">React, Node.js, Python, and cloud technologies</span>. I am particularly interested in developing systems that improve user engagement and data management. I am actively seeking a <span className="font-medium">full-time position</span> where I can contribute to challenging projects and advance my skills in software development.
+      </p>
+      <p>
+        Beyond coding, I'm passionate about <span className="italic">teaching and mentoring</span>. I enjoy breaking down complex problems and helping others learn and grow in the field of technology. In my free time, I explore <span className="font-medium">AI applications</span> and stay active by hiking and cycling. I’m also a lifelong learner, currently diving deeper into <span className="font-medium">data science and machine learning</span>.
       </p>
     </motion.section>
   );

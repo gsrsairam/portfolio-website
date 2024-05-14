@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { BsFillBriefcaseFill } from "react-icons/bs";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -16,16 +16,17 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
+  
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +36,113 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Master’s Degree in Computer Science",
+    location: "SUNY Buffalo",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Focused on advanced data models and query languages, developed a strong foundation in software engineering principles.",
+    icon: React.createElement(BsFillBriefcaseFill),
+    date: "2024 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Senior Software Engineer at Vellichor Media",
+    location: "Bangalore, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Managed major projects enhancing user engagement, integrating scalable solutions using React, Node.js, and cloud technologies.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - 2023",
+  },
+  {
+    title: "Software Engineer at I-PAC",
+    location: "Hyderabad, India",
+    description:
+      "Led backend development and API integration, improving system scalability and performance. Upskilled to full-stack development.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: " AI-Powered Q/A System for Novel Analysis",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      `Developed and tested a chatbot component using pre-trained models DialoGPT and BlenderBot, ensuring robust
+      performance and user satisfaction. Designed and deployed a user-friendly web interface for the chatbot, complete with
+      detailed chat analysis and visualization features using JavaScript and Git.`,
+    tags: ["Python", "Transformers", "Chatterbot", "React"]
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Raft Protocol and Chandy Lamport Implementation",
+    description: `Designed and implemented the leader election phase of the Raft protocol using Go. Developed the Chandy Lamport snapshot algorithm for unidirectional, FIFO ordered channels,
+    enabling efficient and accurate global state capture.`,
+    tags: ["GoLang", "Fault Tolerance"]
   },
   {
-    title: "Word Analytics",
+    title: "Weather Forecast System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    `Developed and deployed scalable cloud-native microservices for advanced weather modeling using NEXRAD data, with
+    Kafka for communication. Utilized Kubernetes for containerization, Jenkins for CI/CD pipelines, and managed traffic for
+    canary deployments, ensuring efficient load balancing and service health.`,
+    tags: ["Docker", "Kubernetes", "Kafka", "Cloud"],
+  },
+  {
+    title: "Real-Time Attendance System",
+    description:
+      "Created a secure, router-bound intranet system for accurate student attendance tracking, using local network validation.",
+    tags: ["Network Security", "Intranet", "Data Validation"],
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+export const skillsData = 
+
+[
   "Python",
-  "Django",
-  "Framer Motion",
+  "Go",
+  "Solidity",
+  "Google Cloud Platform",
+  "Javascript",
+  "Gitlab",
+  "MySQL",
+  "Express.js",
+  "MongoDB",
+  "React.js",
+  "Node.js",
+  "Docker",
+  "AWS",
+  "Typescript",
+  "Mongoose",
+  "Swagger",
+  "Postman",
+  "Plagiarism Detection",
+  "Zero GPT",
+  "MOSS",
+  "Sonarqube",
+  "Maven",
+  "Spring Boot",
+  "Microservices",
+  "JFrog Software",
+  "Gitlab Pipelines",
+  "Harbor",
+  "CI/CD",
+  "Pandas",
+  "Matplotlib",
+  "Jupyter",
+  "Scikit-Learn",
+  "NLTK",
+  "Transformers",
+  "Flask",
+  "Nginx",
+  "Angular Material",
+  "Angular CLI",
+  "Angular",
+  "SASS",
+  "SCSS",
+  "HTML",
+  "Cascading Style Sheets (CSS)",
+  "REST APIs",  
+  "AutoCAD",
+  "PTC Creo",
+  "Matlab",
+  "ANSYS",
+  "C",
+  "Microsoft PowerPoint"
 ] as const;
